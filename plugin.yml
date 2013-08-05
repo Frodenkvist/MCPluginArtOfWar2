@@ -1,0 +1,50 @@
+name: ArtOfWar
+main: me.frodenkvist.artofwar.ArtOfWar
+version: 1.0
+description: >
+             Test. port plugin.
+softdepend: [Towny, TagAPI, ArmorEditor]
+commands:
+    war:
+        description: Starter command.
+    duel:
+permissions:
+    artofwar.set.lobby:
+        description: Access To /war lobby
+        default: op
+    artofwar.use:
+        description: Access To /war declare
+        default: op
+    artofwar.set.arena:
+        description: Access To /war set arena
+        default: op
+    artofwar.save.arena:
+        description: Access To /war save arena
+        default: op
+    artofwar.load.arena:
+        description: Access To /war load arena
+        default: op
+    artofwar.reload:
+        description: Access To /war reload
+        default: op
+    artofwar.break.arena:
+        description: Access To /war reload
+        default: op
+    artofwar.place.arena:
+        description: Access To /war reload
+        default: op
+    artofwar.force.start.arena:
+        description: Access To /war reload
+        default: op
+    artofwar.force.end.arena:
+        description: Access To /war reload
+        default: op
+    artofwar.spectate:
+        description: Access To /war reload
+        default: op
+    artofwar.cmdoverride:
+        description: Access To /war reload
+        default: op
+    artofwar.kick:
+        description: Access To /war reload
+        default: op

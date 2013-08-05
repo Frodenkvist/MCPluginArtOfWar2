@@ -1,0 +1,66 @@
+#
+#
+#
+# things
+
+War:
+    ChallangeAcceptTime: 60
+    # How long a player has until they can no longer accept a challange
+    AttackerBlockBreakAmount: 2
+    # how many blocks can be broken at same time
+    AttackerBlockBreakDelay: 10
+    # timer until a new block can be broken
+    AttackerBlockPlaceAmount: 2
+    # how many blocks can be placed before timer starts
+    AttackerBlockPlaceDelay: 10
+    # time until another block can be placed
+    AttackersPointValue: 2
+    # how many times team members can die PER PERSON IN GAME (example if this was set to 2 and there was 1 team of 3 one of 5 total players:8 multipled by this number= how many times they must die)
+    DefendersPointValue: 3
+    # how many times team members can die PER PERSON IN GAME (example if this was set to 2 and there was 1 team of 3 one of 5 total players:8 multipled by this number= how many times they must die)
+    RewardItems:
+    - 4,64
+    - 264,8
+    # each player on winning team is given this for victory
+    PrepTime: 1
+    # how many minutes teams have to get ready (sort enderchest and such) before match starts after it has been accepted
+    TNTAmount: 2
+    # how many TNT blocks the attackers may place (pre primed) before tnt stops working
+    ProtectedBlocks: 85,20
+    # blocks that are protected completely during war (example ProtectedBlocks: 3,4,10
+ 
+
+#===================COMMANDS================================
+#/war <list of war commands>
+#/war join -joins arena queue
+#/war accept - accept a challange & to accept an ally invite
+#/war lobby to set lobby to your location
+#/war delcare <townname> to challange another town to a war
+#/war surrender - mayor can type to surrender (will lose)
+#/war set arena town -Sets the town of the arena (for handling pvp flags)
+#/war set arena pos1 -Sets arena cuboid positon one
+#/war set arena pos2 -Sets arena cuboid position two
+#/war set arena attacker - sets attacker spawn location
+#/war set arena defender - sets defender spawn location
+#/war set arena lobby - sets lobby location
+#/war save arena -saves arena as it is
+#/war load arena -force reload arena from save
+#/war reload -reload artofwar plugin
+
+
+
+#========================PERMISSIONS========================
+#artofwar.set.lobby    =Allows use of </war lobby> command
+#artofwar.use          =Allows use of the command </war declare>
+#artofwar.set.arena    =Allows use of the commands </war set arena *>
+#artofwar.save.arena   =Allows use of the command </war save arena>
+#artofwar.load.arena   =Allows use of the command </war load>
+#artofwar.reload       =Allows use of the command </war reload>
+#artofwar.break.arena  =Allows destruction in the arena
+#artofwar.place.arena  =Allows building in the arena
+
+Arena:
+
+Portals:
+
+Sign:
